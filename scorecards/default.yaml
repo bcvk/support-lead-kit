@@ -1,0 +1,58 @@
+# Weighted QA scorecard for written support (email, chat, tickets).
+# Weights sum to 100. Each criterion is scored 0, 1 or 2 (not met, partly met, fully met)
+# and scaled to its weight. auto_fail criteria zero the whole ticket when scored 0.
+
+name: Written Support QA v1
+pass_threshold: 85
+categories:
+  - id: accuracy
+    name: Accuracy and resolution
+    weight: 35
+    criteria:
+      - id: correct_info
+        text: Information given is correct and complete for the customer's situation
+        weight: 15
+        auto_fail: true
+      - id: resolved
+        text: The issue is resolved or the customer knows exactly what happens next and when
+        weight: 12
+      - id: policy
+        text: Policy and process were followed (refunds, escalation, verification)
+        weight: 8
+        auto_fail: true
+
+  - id: communication
+    name: Communication
+    weight: 30
+    criteria:
+      - id: clarity
+        text: Reply is easy to follow; steps are ordered; no jargon the customer would not know
+        weight: 10
+      - id: tone
+        text: Tone matches the customer's mood and the brand voice; no canned feel
+        weight: 10
+      - id: language
+        text: Grammar, spelling and formatting are clean in the customer's language
+        weight: 10
+
+  - id: efficiency
+    name: Efficiency
+    weight: 20
+    criteria:
+      - id: first_contact
+        text: Everything the customer asked was handled in one reply; no unnecessary back and forth
+        weight: 10
+      - id: internal_notes
+        text: Internal notes, tags and macros used correctly so the next person can pick it up
+        weight: 10
+
+  - id: empathy
+    name: Empathy and ownership
+    weight: 15
+    criteria:
+      - id: acknowledge
+        text: The customer's frustration or situation is acknowledged specifically, not generically
+        weight: 8
+      - id: ownership
+        text: Agent owns the problem ("I will") rather than deflecting ("you need to")
+        weight: 7

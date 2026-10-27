@@ -1,0 +1,10 @@
+{
+  "name": "support-lead-kit",
+  "version": "0.1.0",
+  "description": "Open source operating kit for support team leads: weighted QA scorecard, calibration analysis (Krippendorff alpha), coaching log, nesting playbook, Google Sheets workbook, and Claude Code skills that use them.",
+  "author": { "name": "Burak Çevik", "url": "https://burak.pm" },
+  "homepage": "https://github.com/bcvk/support-lead-kit",
+  "repository": "https://github.com/bcvk/support-lead-kit",
+  "license": "MIT",
+  "keywords": ["customer-support", "qa", "scorecard", "calibration", "coaching", "team-lead", "cx", "claude-code", "skills"]
+}

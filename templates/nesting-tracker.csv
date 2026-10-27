@@ -1,0 +1,5 @@
+agent,start_date,week,tickets_handled,qa_score,qa_reviews,aht_minutes,csat,escalations,shadowing_sessions,feedback_sent,status,blocker,notes
+Example Agent,2026-10-05,1,18,78.5,4,14.2,,1,2,yes,on_track,,"Slow on refund flow, shadowed twice"
+Example Agent,2026-10-05,2,41,84.0,5,11.8,4.2,0,1,yes,on_track,,"Refund flow fixed, tone still formal"
+Example Agent,2026-10-05,3,63,88.5,5,10.1,4.5,0,0,yes,on_track,,
+Example Agent,2026-10-05,4,80,91.0,6,9.4,4.6,0,0,yes,graduate,,"Recommend production from week 5"

@@ -1,0 +1,7 @@
+{
+  "name": "bcvk",
+  "owner": { "name": "Burak Çevik", "url": "https://burak.pm" },
+  "plugins": [
+    { "name": "support-lead-kit", "source": "./", "description": "Operating kit for support team leads", "version": "0.1.0" }
+  ]
+}

@@ -1,0 +1,19 @@
+ticket_id,agent,evaluator,correct_info,resolved,policy,clarity,tone,language,first_contact,internal_notes,acknowledge,ownership,score
+K1,Alex,Lead A,1,2,2,1,1,1,2,2,2,0,70.5
+K1,Alex,Lead B,1,1,2,1,0,0,1,2,0,1,45.0
+K1,Alex,Lead C,2,1,2,1,1,1,2,2,2,1,75.5
+K2,Alex,Lead A,2,1,2,1,1,1,2,1,2,0,67.0
+K2,Alex,Lead B,2,2,2,2,1,1,2,1,1,1,77.5
+K2,Alex,Lead C,2,2,2,1,2,0,2,0,2,1,71.5
+K3,Alex,Lead A,2,1,2,1,2,1,0,2,0,1,62.5
+K3,Alex,Lead B,2,1,2,1,1,1,0,2,0,2,61.0
+K3,Alex,Lead C,2,1,1,1,2,0,1,2,0,2,62.0
+K4,Alex,Lead A,1,2,2,1,2,2,2,2,1,2,83.5
+K4,Alex,Lead B,2,2,2,1,1,2,2,2,0,1,78.5
+K4,Alex,Lead C,2,2,2,1,2,2,2,2,1,2,91.0
+K5,Alex,Lead A,2,1,1,0,2,2,1,1,2,1,66.5
+K5,Alex,Lead B,2,1,2,0,1,2,2,1,1,0,63.0
+K5,Alex,Lead C,1,1,2,0,2,2,2,2,2,0,69.5
+K6,Alex,Lead A,2,2,1,1,1,0,1,1,2,2,66.0
+K6,Alex,Lead B,2,2,2,1,1,1,1,1,1,2,71.0
+K6,Alex,Lead C,2,2,1,0,0,1,2,1,2,2,66.0
